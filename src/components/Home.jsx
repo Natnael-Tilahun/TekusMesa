@@ -1,12 +1,16 @@
-import React from 'react'
+import React from "react";
 
 function Home() {
   return (
-    <div className=' flex flex-col justify-center items-center px-20'>
-      <h1 className='text-5xl font-bold text-[#ed2e35] text-center'>ትኩሱን በሰዓቱ</h1>
-      <h1 className='text-center font-black text-7xl animate-pulse'>Coming Soon...</h1>
+    <div className=" flex flex-col justify-center items-center px-5 lg:px-40 w-screen h-[calc(100vh-80px)]  border-4 border-gray-400">
+      <h1 className="text-5xl font-bold text-[#ed2e35] text-center">
+        ትኩሱን በሰዓቱ
+      </h1>
+      <h1 className="text-center font-black text-7xl animate-pulse">
+        Coming Soon...
+      </h1>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

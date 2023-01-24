@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="w-full flex flex-col  justify-between bg-[#000] text-white  m-0 px-5 lg:px-52 py-6">
+    <div className="w-full flex flex-col  justify-between bg-[#000] text-white  m-0 px-5 lg:px-28 xl:px-52 py-6">
       <div className="flex flex-wrap flex-col gap-5 md:flex-row justify-between pb-5">
         <div class="flex items-center flex-shrink-0 mr-6">
           <svg

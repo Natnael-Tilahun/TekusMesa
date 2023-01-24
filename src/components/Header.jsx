@@ -20,7 +20,7 @@ function Header() {
 
   return (
     <div>
-      <nav class="flex justify-between flex-wrap py-5 px-5 lg:px-52 w-screen h-20 shadow-md shadow-gray-200 lg:shadow-none fixed left-0 bg-white opacity-100 z-50">
+      <nav class="flex justify-between flex-wrap py-5 px-5 lg:px-28 xl:px-52 w-screen h-20 shadow-md shadow-gray-200 lg:shadow-none fixed left-0 bg-white opacity-100 z-50">
         <div class="flex items-center justify-center w-auto h-auto flex-shrink-0 mr-6 ">
           <svg
             class="fill-current h-8 w-8 mr-2"

@@ -20,8 +20,8 @@ function Header() {
 
   return (
     <div>
-      <nav class="flex items-center justify-between flex-wrap py-6 px-5 lg:px-52 w-screen h-20 ">
-        <div class="flex items-center flex-shrink-0 mr-6">
+      <nav class="flex justify-between flex-wrap py-5 px-5 lg:px-52 w-screen h-20 shadow-md shadow-gray-200 lg:shadow-none fixed left-0 bg-white opacity-100 z-50">
+        <div class="flex items-center justify-center w-auto h-auto flex-shrink-0 mr-6 ">
           <svg
             class="fill-current h-8 w-8 mr-2"
             width="54"
@@ -40,7 +40,7 @@ function Header() {
           >
             {collapseNav ? (
               <svg
-                className="fill-current h-3 w-3 animate-[wiggle_3s_ease-in-out_infinite]"
+                className="fill-current h-3 w-3 font-bold"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -49,7 +49,7 @@ function Header() {
               </svg>
             ) : (
               <svg
-                className="fill-current h-3 w-3"
+                className="fill-current h-3 w-3 font-bold"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 width="20"
@@ -68,11 +68,11 @@ function Header() {
           className="block px-4 py-3 w-full lg:flex lg:items-center lg:w-auto"
         > */}
         <div
-          class={`w-full block lg:flex lg:items-center lg:w-auto  duration-500 ease-in-out transition-opacity  ${
+          class={`w-full block lg:flex lg:items-center lg:w-auto  duration-500 ease-in-out transition-opacity shadow-lg lg:shadow-none fixed lg:static top-20 left-0 bg-white opacity-100 -z-0  ${
             collapseNav ? "hidden" : "block"
           }`}
         >
-          <div className="text-lg text-center">
+          <div className="text-lg font-bold text-center">
             <a
               href="#responsive-header"
               className="block mt-4 lg:inline-block lg:mt-0 hover:text-[#ed2e35] text-gray-600 mr-10"

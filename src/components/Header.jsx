@@ -100,7 +100,7 @@ function Header() {
           <div>
             <a
               href="#"
-              className="block text-center py-3 text-lg px-5 leading-none border rounded-lg border-white text-white font-bold lg:inline-block lg:mx-4  lg:py-2   hover:border-transparent hover:bg-white mt-4 lg:mt-0 bg-gradient-to-tr from-[#ed2e35] to-pink-400  hover:from-red-500 hover:to-yellow-500"
+              className="block text-center py-3 text-lg px-5 leading-none border rounded-lg border-white text-white font-bold lg:inline-block lg:mx-4  lg:py-2   hover:border-transparent hover:bg-white mt-4 lg:mt-0 bg-gradient-to-tr from-[#ed2e35] to-red-400  hover:from-red-500 hover:to-yellow-500"
             >
               Join Us
             </a>

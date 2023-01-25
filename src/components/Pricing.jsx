@@ -26,7 +26,7 @@ function Pricing() {
               <div>
                 <div class="bg-gray-100 p-2 rounded-lg text-center">
                   <h4 class="text-2xl font-bold text-gray-900">250</h4>
-                  <p class="text-xs text-gray-500">Per month</p>
+                  <p class="text-xs text-gray-500 whitespace-nowrap">Per month</p>
                 </div>
               </div>
             </div>
@@ -168,8 +168,8 @@ function Pricing() {
               </div>
               <div>
                 <div class="bg-gray-700 p-2 rounded-lg text-center">
-                  <h4 class="text-2xl font-bold text-white">500</h4>
-                  <p class="text-xs text-gray-300">Per month</p>
+                  <h4 class="text-2xl font-bold text-white ">500</h4>
+                  <p class="text-xs text-gray-300 whitespace-pre-wrap">Per month</p>
                 </div>
               </div>
             </div>
@@ -314,7 +314,7 @@ function Pricing() {
               <div>
                 <div class="bg-gray-100 p-2 rounded-lg text-center">
                   <h4 class="text-2xl font-bold text-gray-900">350</h4>
-                  <p class="text-xs text-gray-500">Per month</p>
+                  <p class="text-xs text-gray-500 whitespace-nowrap">Per month</p>
                 </div>
               </div>
             </div>

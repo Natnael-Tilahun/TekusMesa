@@ -31,7 +31,7 @@ function Footer() {
           </p>
           <p>
             <i className="ri-mail-fill ri-lg text-[#ed2e35] pr-3"></i>{" "}
-            <span className="text-gray-400">tekusmesa.com</span>
+            <span className="text-gray-400">support@tekusmesa.com</span>
           </p>
         </div>
       </div>

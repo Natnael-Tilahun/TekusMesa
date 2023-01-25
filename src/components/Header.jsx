@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 function Header() {
   const [collapseNav, setCollapseNav] = useState(true);
   const toggleMenu = () => {
-    console.log(collapseNav);
     setCollapseNav((prevState) => !prevState);
   };
   const menuVariants = {
@@ -75,19 +74,25 @@ function Header() {
           <div className="text-lg font-bold text-center">
             <a
               href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 hover:text-[#ed2e35] text-gray-600 mr-10"
+              className="block mt-4 lg:inline-block lg:mt-0 hover:text-[#ed2e35] text-gray-600 mr-10  border-red-500 pr-2 transition-all duration-200 hover:border-r-4"
             >
               Home
             </a>
             <a
               href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 hover:text-[#ed2e35] text-gray-600 mr-10"
+              className="block mt-4 lg:inline-block lg:mt-0 hover:text-[#ed2e35] text-gray-600 mr-10  border-red-500 pr-2 transition-all duration-200 hover:border-r-4"
+            >
+              Pricing
+            </a>
+            <a
+              href="#responsive-header"
+              className="block mt-4 lg:inline-block lg:mt-0 hover:text-[#ed2e35] text-gray-600 mr-10  border-red-500 pr-2 transition-all duration-200 hover:border-r-4"
             >
               Blog
             </a>
             <a
               href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 hover:text-[#ed2e35] text-gray-600 mr-6"
+              className="block mt-4 lg:inline-block lg:mt-0 hover:text-[#ed2e35] text-gray-600 mr-6  border-red-500 pr-2 transition-all duration-200 hover:border-r-4"
             >
               Contact
             </a>
@@ -95,7 +100,7 @@ function Header() {
           <div>
             <a
               href="#"
-              className="block text-center py-3 text-lg px-5 leading-none border rounded-lg border-white text-white font-bold lg:inline-block lg:mx-4  lg:py-2   hover:border-transparent hover:bg-white mt-4 lg:mt-0 bg-gradient-to-tr from-[#ed2e35] to-red-300"
+              className="block text-center py-3 text-lg px-5 leading-none border rounded-lg border-white text-white font-bold lg:inline-block lg:mx-4  lg:py-2   hover:border-transparent hover:bg-white mt-4 lg:mt-0 bg-gradient-to-tr from-[#ed2e35] to-pink-400  hover:from-red-500 hover:to-yellow-500"
             >
               Join Us
             </a>

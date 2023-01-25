@@ -1,14 +1,12 @@
 import React from "react";
+import Hero from "./Hero";
+import Pricing from "./Pricing";
 
 function Home() {
   return (
-    <div className=" flex flex-col justify-center items-center px-5 lg:px-28 xl:px-52 w-screen h-screen">
-      <h1 className="text-5xl font-bold text-[#ed2e35] text-center">
-        ትኩሱን በሰዓቱ
-      </h1>
-      <h1 className="text-center font-black text-7xl animate-pulse">
-        Coming Soon...
-      </h1>
+    <div className=" flex flex-col justify-center items-center px-5 lg:px-28 xl:px-52 w-screen">
+      <Hero />
+      <Pricing />
     </div>
   );
 }

@@ -14,7 +14,7 @@ function Pricing() {
           The right price for you, whoever you are
         </p>
       </header>
-      <div className="border-2 border-purple-600 flex flex-col mt-10 mx-5 space-y-5 md:space-y-0 md:flex-row md:space-x-5 xl:space-x-20 md:mx-0 justify-between">
+      <div className="flex flex-col mt-10 mx-5 space-y-5 md:space-y-0 md:flex-row md:space-x-5 xl:space-x-20 md:mx-0 justify-between">
         {/* Pricing one for students */}
         <div className="flex-1 transition transform duration-300 hover:scale-110">
           <div className="bg-gray-300 p-10 rounded-lg">

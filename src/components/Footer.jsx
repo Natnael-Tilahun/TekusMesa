@@ -10,7 +10,7 @@ function Footer({ toggleMenu }) {
       <div className="flex flex-wrap flex-col gap-5 md:flex-row justify-between pb-5">
         <div className="flex flex-col lg:flex-row items-center flex-shrink-0 mr-6">
           <img
-            src="/logo/7.png"
+            src="/7.png"
             alt="A logo that shows when a man deliver food on the motor cycle "
             className="w-32 h-32 bg-contain"
           />

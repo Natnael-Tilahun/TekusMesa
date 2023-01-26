@@ -25,7 +25,7 @@ function Contact() {
         <div className="mb-2 w-full">
           <label
             className="block text-gray-600 text-sm font-bold mb-2"
-            for="username"
+            htmlFor="username"
           >
             Name
           </label>
@@ -39,7 +39,7 @@ function Contact() {
         <div className="mb-2 w-full">
           <label
             className="block text-gray-600 text-sm font-bold mb-2"
-            for="email"
+            htmlFor="email"
           >
             Email
           </label>
@@ -53,7 +53,7 @@ function Contact() {
         <div className="mb-2 w-full">
           <label
             className="block text-gray-600 text-sm font-bold mb-2"
-            for="message"
+            htmlFor="message"
           >
             What can we help you with?
           </label>

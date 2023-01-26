@@ -1,23 +1,23 @@
 import React from "react";
 
-function Footer() {
+function Footer({ toggleMenu }) {
   return (
     <section
-      className="w-full flex flex-col  justify-between bg-[#000] text-white  m-0 px-5 lg:px-28 xl:px-52 py-6"
+      className="w-full flex flex-col  justify-between bg-[#000] text-white  m-0 px-10 lg:px-28 xl:px-52 py-6"
+      onClick={toggleMenu}
       id="footer"
     >
       <div className="flex flex-wrap flex-col gap-5 md:flex-row justify-between pb-5">
-        <div class="flex items-center flex-shrink-0 mr-6">
-          <svg
-            class="fill-current h-8 w-8 mr-2"
-            width="54"
-            height="54"
-            viewBox="0 0 54 54"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
-          </svg>
-          <span class="font-semibold text-xl tracking-tight">Tekus Mesa</span>
+        <div className="flex flex-col lg:flex-row items-center flex-shrink-0 mr-6">
+          <img
+            src="/public/logo/7.png"
+            alt=""
+            className="w-32 h-32 bg-contain"
+          />
+
+          <span className="font-semibold text-xl tracking-tight">
+            Tekus Mesa
+          </span>
         </div>
         <div className="flex flex-col gap-1">
           <h1 className="font-extrabold text-lg uppercase py-3">Service Day</h1>
@@ -30,7 +30,7 @@ function Footer() {
           </h1>
           <p>
             <i className="ri-phone-fill ri-lg text-[#ed2e35] pr-3"></i>{" "}
-            <span className="text-gray-400">(+251)933654654</span>
+            <span className="text-gray-400">(+251) 933654654</span>
           </p>
           <p>
             <i className="ri-mail-fill ri-lg text-[#ed2e35] pr-3"></i>{" "}

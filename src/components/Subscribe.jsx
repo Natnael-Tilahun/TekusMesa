@@ -3,7 +3,7 @@ import React from "react";
 function Subscribe() {
   return (
     <section
-      className="w-screen h-56 flex flex-col lg:flex-row lg:items-center justify-center px-10 py-5 lg:py-0 gap-5 lg:px-28 xl:px-52  bg-[#ed2e35]"
+      className="w-screen h-60 flex flex-col lg:flex-row lg:items-center justify-center px-10 py-5 lg:py-0 gap-5 lg:px-28 xl:px-52  bg-[#ed2e35]"
       id="subscribe"
     >
       <div className="lg:basis-1/2 lg:text-2xl text-lg">
@@ -20,7 +20,7 @@ function Subscribe() {
           placeholder="Enter mail address"
         />
         <button
-          className="bg-gray-900 hover:bg-red-700 text-white font-bold py-2 px-10 rounded focus:outline-dashed focus:shadow-outline border-l-0 rounded-l-none"
+          className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-10 rounded focus:outline-dashed focus:shadow-outline border-l-0 rounded-l-none"
           type="button"
         >
           Submit

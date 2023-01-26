@@ -1,9 +1,7 @@
 import React from "react";
-import Header from "./Header";
 
 function Hero() {
   return (
-    // <div>
     <section
       className="flex flex-col-reverse lg:flex-row w-full h-screen lg:h-[calc(100vh-80px)] mt-[80px]"
       id="hero"
@@ -39,7 +37,6 @@ function Hero() {
       </div>
       <div className="h-full w-full bg-hero_lg bg-no-repeat bg-contain bg-center flex lg:basis-1/2"></div>
     </section>
-    // </div>
   );
 }
 

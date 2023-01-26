@@ -2,12 +2,9 @@ import React from "react";
 
 function Pricing() {
   return (
-    <section
-      id="pricing"
-      className="w-full lg:h-[calc(100vh-80px)]  py-[100px]"
-    >
+    <section id="pricing" className="w-full lg:h-screen py-[80px]">
       <header className="text-center">
-        <h3 className="text-5xl font-bold mb-5 text-gray-900">
+        <h3 className="text-4xl lg:text-5xl font-bold mb-5 text-gray-900">
           Our Pricing Plan
         </h3>
         <p className="text-xl text-gray-400 mb-2">
@@ -23,8 +20,8 @@ function Pricing() {
           <div className="bg-gray-300 p-10 rounded-lg">
             <div className="flex justify-between items-center">
               <div>
-                <h4 className="text-2xl font-bold text-gray-900">
-                  Student (Basic)
+                <h4 className="text-xl lg:text-2xl font-bold text-gray-900">
+                  Student<span className="text-sm">(Basic)</span>
                 </h4>
                 <p className="text-xs text-gray-500">Most Popular</p>
               </div>
@@ -52,9 +49,9 @@ function Pricing() {
                       aria-hidden="true"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M5 13l4 4L19 7"
                       />
                     </svg>
@@ -75,9 +72,9 @@ function Pricing() {
                       aria-hidden="true"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M5 13l4 4L19 7"
                       />
                     </svg>
@@ -98,9 +95,9 @@ function Pricing() {
                       aria-hidden="true"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M5 13l4 4L19 7"
                       />
                     </svg>
@@ -120,9 +117,9 @@ function Pricing() {
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M6 18L18 6M6 6l12 12"
                       />
                     </svg>
@@ -142,9 +139,9 @@ function Pricing() {
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M6 18L18 6M6 6l12 12"
                       />
                     </svg>
@@ -170,7 +167,9 @@ function Pricing() {
           <div className="bg-black p-10 rounded-lg">
             <div className="flex justify-between items-center">
               <div>
-                <h4 className="text-2xl font-bold text-white">Ultimate</h4>
+                <h4 className="text-xl lg:text-2xl font-bold text-white">
+                  Ultimate
+                </h4>
                 <p className="text-xs text-gray-300">Recommended</p>
               </div>
               <div>
@@ -197,9 +196,9 @@ function Pricing() {
                       aria-hidden="true"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M5 13l4 4L19 7"
                       ></path>
                     </svg>
@@ -220,9 +219,9 @@ function Pricing() {
                       aria-hidden="true"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M5 13l4 4L19 7"
                       ></path>
                     </svg>
@@ -243,9 +242,9 @@ function Pricing() {
                       aria-hidden="true"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M5 13l4 4L19 7"
                       ></path>
                     </svg>
@@ -265,9 +264,9 @@ function Pricing() {
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M6 18L18 6M6 6l12 12"
                       ></path>
                     </svg>
@@ -287,9 +286,9 @@ function Pricing() {
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M6 18L18 6M6 6l12 12"
                       ></path>
                     </svg>
@@ -315,8 +314,8 @@ function Pricing() {
           <div className="bg-gray-300 p-10 rounded-lg">
             <div className="flex justify-between items-center">
               <div>
-                <h4 className="text-2xl font-bold text-gray-900">
-                  Professional (Basic)
+                <h4 className="text-xl lg:text-2xl font-bold text-gray-900">
+                  Professional<span className="text-sm">(Basic)</span>
                 </h4>
                 <p className="text-xs text-gray-500">For you</p>
               </div>
@@ -344,9 +343,9 @@ function Pricing() {
                       aria-hidden="true"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M5 13l4 4L19 7"
                       />
                     </svg>
@@ -367,9 +366,9 @@ function Pricing() {
                       aria-hidden="true"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M5 13l4 4L19 7"
                       />
                     </svg>
@@ -390,9 +389,9 @@ function Pricing() {
                       aria-hidden="true"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M5 13l4 4L19 7"
                       />
                     </svg>
@@ -412,9 +411,9 @@ function Pricing() {
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M6 18L18 6M6 6l12 12"
                       />
                     </svg>
@@ -434,9 +433,9 @@ function Pricing() {
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M6 18L18 6M6 6l12 12"
                       />
                     </svg>

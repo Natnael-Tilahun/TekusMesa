@@ -1,12 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { HashLink } from "react-router-hash-link";
 import { motion } from "framer-motion";
 
-function Header() {
-  const [collapseNav, setCollapseNav] = useState(true);
-  const toggleMenu = () => {
-    setCollapseNav((prevState) => !prevState);
-  };
+function Header({ collapseNav, toggleMenu }) {
   const menuVariants = {
     open: {
       opacity: 1,
@@ -24,18 +20,24 @@ function Header() {
       id="header"
       className="flex justify-between flex-wrap py-5 px-5 lg:px-28 xl:px-52 w-screen h-20 shadow-md shadow-gray-200 lg:shadow-none fixed left-0 bg-white opacity-100 z-50"
     >
-      <div className="flex items-center justify-center w-auto h-auto flex-shrink-0 mr-6 ">
-        <svg
-          className="fill-current h-8 w-8 mr-2"
-          width="54"
-          height="54"
-          viewBox="0 0 54 54"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
-        </svg>
-        <span className="font-semibold text-xl tracking-tight">Tekus Mesa</span>
-      </div>
+      <HashLink
+        to="/#"
+        smooth
+        onClick={() => {
+          !collapseNav && toggleMenu();
+        }}
+      >
+        <div className="flex items-center justify-center w-auto h-auto flex-shrink-0 mr-6 ">
+          <img
+            src="/public/logo/4.png"
+            alt=""
+            className="w-16 h-16 bg-contain"
+          />
+          <span className="font-semibold text-xl tracking-tight">
+            Tekus Mesa
+          </span>
+        </div>
+      </HashLink>
       <div className="block lg:hidden">
         <button
           className="flex items-center px-3 py-2 border rounded text-black hover:border-red-400 hover:text-red-200 border-black "
@@ -79,13 +81,23 @@ function Header() {
           <HashLink
             to="/#"
             smooth
+            onClick={toggleMenu}
             className="block mt-4 lg:inline-block lg:mt-0 hover:text-[#ed2e35] text-gray-600 mr-10  border-red-500 pr-2 transition-all duration-200 hover:border-r-4"
           >
             Home
           </HashLink>
           <HashLink
+            to="/#services"
+            smooth
+            onClick={toggleMenu}
+            className="block mt-4 lg:inline-block lg:mt-0 hover:text-[#ed2e35] text-gray-600 mr-10  border-red-500 pr-2 transition-all duration-200 hover:border-r-4"
+          >
+            Services
+          </HashLink>
+          <HashLink
             to="/#pricing"
             smooth
+            onClick={toggleMenu}
             className="block mt-4 lg:inline-block lg:mt-0 hover:text-[#ed2e35] text-gray-600 mr-10  border-red-500 pr-2 transition-all duration-200 hover:border-r-4"
           >
             Pricing
@@ -93,6 +105,7 @@ function Header() {
           <HashLink
             to="/#responsive-header"
             smooth
+            onClick={toggleMenu}
             className="block mt-4 lg:inline-block lg:mt-0 hover:text-[#ed2e35] text-gray-600 mr-10  border-red-500 pr-2 transition-all duration-200 hover:border-r-4"
           >
             Blog
@@ -100,6 +113,7 @@ function Header() {
           <HashLink
             to="/#contact"
             smooth
+            onClick={toggleMenu}
             className="block mt-4 lg:inline-block lg:mt-0 hover:text-[#ed2e35] text-gray-600 mr-6  border-red-500 pr-2 transition-all duration-200 hover:border-r-4"
           >
             Contact
@@ -109,6 +123,7 @@ function Header() {
           <HashLink
             to="/#subscribe"
             smooth
+            onClick={toggleMenu}
             className="block text-center py-3 text-lg px-5 leading-none border rounded-lg border-white text-white font-bold lg:inline-block lg:mx-4  lg:py-2   hover:border-transparent hover:bg-white mt-4 lg:mt-0 bg-gradient-to-tr from-[#ed2e35] to-red-400  hover:from-red-500 hover:to-yellow-500"
           >
             Join Us

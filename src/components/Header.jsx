@@ -31,7 +31,7 @@ function Header({ collapseNav, toggleMenu }) {
           <img
             src="/4.png"
             alt="A logo that shows when a man deliver food on the motor cycle "
-            className="w-16 h-16 bg-contain"
+            className="w-14 h-14 bg-contain"
           />
           <span className="font-semibold text-xl tracking-tight">
             Tekus Mesa

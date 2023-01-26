@@ -29,8 +29,8 @@ function Header({ collapseNav, toggleMenu }) {
       >
         <div className="flex items-center justify-center w-auto h-auto flex-shrink-0 mr-6 ">
           <img
-            src="/public/logo/4.png"
-            alt=""
+            src="/4.png"
+            alt="A logo that shows when a man deliver food on the motor cycle "
             className="w-16 h-16 bg-contain"
           />
           <span className="font-semibold text-xl tracking-tight">

@@ -14,7 +14,6 @@ function Hero() {
           Easy way to eat
           <span className="text-[#ed2e35] text-4xl"> hot lunch </span>
           from your home.
-          {/* <span className="text-[#ed2e35] text-4xl"> </span> */}
           <span className="text-4xl text-gray-800"> Just wait food at</span>
           <span className="text-[#ed2e35] text-4xl"> your workplace.</span>
         </h1>

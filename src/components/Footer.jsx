@@ -3,7 +3,7 @@ import React from "react";
 function Footer({ toggleMenu }) {
   return (
     <section
-      className="w-full flex flex-col  justify-between bg-[#000] text-white  m-0 px-10 lg:px-28 xl:px-52 py-6"
+      className="w-full flex flex-col  justify-between bg-[#000] text-white  m-0 px-10 lg:px-14 xl:px-40 py-6"
       onClick={toggleMenu}
       id="footer"
     >

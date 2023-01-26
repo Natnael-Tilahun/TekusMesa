@@ -18,7 +18,7 @@ function Header({ collapseNav, toggleMenu }) {
     // <div>
     <nav
       id="header"
-      className="flex justify-between flex-wrap py-5 px-5 lg:px-28 xl:px-52 w-screen h-20 shadow-md shadow-gray-200 lg:shadow-none fixed left-0 bg-white opacity-100 z-50"
+      className="flex justify-between flex-wrap py-5 px-5 lg:px-14 xl:px-40 w-screen h-20 shadow-md shadow-gray-200 lg:shadow-none fixed left-0 bg-white opacity-100 z-50"
     >
       <HashLink
         to="/#"

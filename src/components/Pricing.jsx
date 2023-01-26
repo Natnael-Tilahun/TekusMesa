@@ -14,7 +14,7 @@ function Pricing() {
           The right price for you, whoever you are
         </p>
       </header>
-      <div className="flex flex-col mt-10 mx-5 space-y-5 md:space-y-0 md:flex-row md:space-x-5 xl:space-x-20 md:mx-0 justify-between">
+      <div className="border-2 border-purple-600 flex flex-col mt-10 mx-5 space-y-5 md:space-y-0 md:flex-row md:space-x-5 xl:space-x-20 md:mx-0 justify-between">
         {/* Pricing one for students */}
         <div className="flex-1 transition transform duration-300 hover:scale-110">
           <div className="bg-gray-300 p-10 rounded-lg">
@@ -110,7 +110,7 @@ function Pricing() {
                 <li className="flex items-center">
                   <div className="bg-gray-700 rounded-full p-1">
                     <svg
-                      className="flex-shrink-0 h-6 w-6 text-white"
+                      className="flex-shrink-0 h-4 w-4 text-white"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -132,7 +132,7 @@ function Pricing() {
                 <li className="flex items-center">
                   <div className="bg-gray-700 rounded-full p-1">
                     <svg
-                      className="flex-shrink-0 h-6 w-6 text-white"
+                      className="flex-shrink-0 h-4 w-4 text-white"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -404,7 +404,7 @@ function Pricing() {
                 <li className="flex items-center">
                   <div className="bg-gray-700 rounded-full p-1">
                     <svg
-                      className="flex-shrink-0 h-6 w-6 text-white"
+                      className="flex-shrink-0 h-4 w-4 text-white"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -426,7 +426,7 @@ function Pricing() {
                 <li className="flex items-center">
                   <div className="bg-gray-700 rounded-full p-1">
                     <svg
-                      className="flex-shrink-0 h-6 w-6 text-white"
+                      className="flex-shrink-0 h-4 w-4 text-white"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"

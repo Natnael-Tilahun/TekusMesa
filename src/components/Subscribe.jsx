@@ -3,7 +3,7 @@ import React from "react";
 function Subscribe() {
   return (
     <section
-      className="w-screen h-60  flex flex-col lg:flex-row lg:items-center justify-center px-10 py-5 lg:py-0 gap-5 lg:mt-[160px] lg:px-28 xl:px-52  bg-[#ed2e35]"
+      className="w-screen h-60  flex flex-col lg:flex-row lg:items-center justify-center px-10 py-5 lg:py-0 gap-5 lg:mt-[160px] lg:px-14 xl:px-40  bg-[#ed2e35]"
       id="subscribe"
     >
       <div className="lg:basis-1/2 lg:text-2xl text-lg">

@@ -1,8 +1,13 @@
 import React from "react";
+import Header from "./Header";
 
 function Hero() {
   return (
-    <div className="flex flex-col-reverse lg:flex-row w-full h-screen lg:h-[calc(100vh-80px)] mt-[80px] ">
+    // <div>
+    <section
+      className="flex flex-col-reverse lg:flex-row w-full h-screen lg:h-[calc(100vh-80px)] mt-[80px]"
+      id="hero"
+    >
       <div className=" flex flex-col justify-center lg:basis-1/2">
         <h1 className="text-5xl text-center lg:text-left lg:text-7xl font-extrabold text-[#ed2e35]  py-5">
           ትኩሱን በሰዓቱ
@@ -33,7 +38,8 @@ function Hero() {
         </h1> */}
       </div>
       <div className="h-full w-full bg-hero_lg bg-no-repeat bg-contain bg-center flex lg:basis-1/2"></div>
-    </div>
+    </section>
+    // </div>
   );
 }
 

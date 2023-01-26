@@ -2,7 +2,10 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="w-full flex flex-col  justify-between bg-[#000] text-white  m-0 px-5 lg:px-28 xl:px-52 py-6">
+    <section
+      className="w-full flex flex-col  justify-between bg-[#000] text-white  m-0 px-5 lg:px-28 xl:px-52 py-6"
+      id="footer"
+    >
       <div className="flex flex-wrap flex-col gap-5 md:flex-row justify-between pb-5">
         <div class="flex items-center flex-shrink-0 mr-6">
           <svg
@@ -50,7 +53,7 @@ function Footer() {
           <i className="ri-twitter-fill ri-lg text-[#ed2e35] pr-0"></i>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

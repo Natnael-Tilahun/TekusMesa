@@ -43,7 +43,7 @@ function Hero() {
           Coming Soon...
         </h1> */}
       </div>
-      <div className="h-full w-full bg-hero_lg bg-no-repeat bg-contain bg-center flex lg:basis-1/2"></div>
+      <div className="h-full w-full bg-hero bg-no-repeat bg-contain bg-center flex lg:basis-1/2"></div>
     </section>
   );
 }

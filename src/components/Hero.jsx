@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink } from "react-router-hash-link";
 
 function Hero() {
   return (
@@ -22,9 +23,13 @@ function Hero() {
           chosen restaurant to your workplace on time.
         </p>
         <div className="flex flex-wrap gap-7 py-7">
-          <button className="w-full lg:w-48 bg-[#ed2e35] hover:bg-gray-900  transition-all duration-700 text-white rounded-md py-2 font-bold">
+          <HashLink
+            to="/#subscribe"
+            smooth
+            className="w-full lg:w-48 bg-[#ed2e35] hover:bg-gray-900  transition-all duration-700 text-white rounded-md py-2 font-bold text-center"
+          >
             Join Us
-          </button>
+          </HashLink>
           <button className="w-full lg:w-48 border-2 border-red-300 hover:border-red-600 transition-all duration-700 text-[#ed2e35] rounded-md py-2 font-bold">
             See our Packages
           </button>

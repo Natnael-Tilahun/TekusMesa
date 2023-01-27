@@ -1,6 +1,14 @@
 import React from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Subscribe() {
+  const notify = () => {
+    toast.success(
+      "Thank you for reaching out to us. We will contact you very soon."
+    );
+  };
+
   return (
     <section
       className="w-screen h-60  flex flex-col lg:flex-row lg:items-center justify-center px-10 py-5 lg:py-0 gap-5 lg:mt-[160px] lg:px-14 xl:px-40  bg-[#ed2e35]"
@@ -20,8 +28,9 @@ function Subscribe() {
           placeholder="Enter mail address"
         />
         <button
-          className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-10 rounded focus:outline-dashed focus:shadow-outline border-l-0 rounded-l-none"
+          className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-10 rounded focus:outline-none focus:shadow-outline border-l-0 rounded-l-none"
           type="button"
+          onClick={notify}
         >
           Submit
         </button>

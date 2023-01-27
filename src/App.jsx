@@ -9,10 +9,14 @@ function App() {
   function toggleMenu() {
     setCollapseNav((prevState) => !prevState);
   }
+
+  function collapseMenu() {
+    setCollapseNav(true);
+  }
   return (
     <div className="w-full flex flex-col items-center m-0 h-full">
       <Header collapseNav={collapseNav} toggleMenu={toggleMenu} />
-      <Home toggleMenu={toggleMenu} />
+      <Home collapseMenu={collapseMenu} />
       <Footer toggleMenu={toggleMenu} />
     </div>
   );

@@ -5,11 +5,11 @@ import Contact from "./Contact";
 import Subscribe from "./Subscribe";
 import Services from "./Services";
 
-function Home({ toggleMenu }) {
+function Home({ collapseMenu }) {
   return (
     <div
       className=" flex flex-col justify-center items-center px-5 lg:px-14 xl:px-40 w-screen"
-      onClick={toggleMenu}
+      onClick={collapseMenu}
     >
       <Hero />
       <Services />

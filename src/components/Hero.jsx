@@ -30,9 +30,13 @@ function Hero() {
           >
             Join Us
           </HashLink>
-          <button className="w-full lg:w-48 border-2 border-red-300 hover:border-red-600 transition-all duration-700 text-[#ed2e35] rounded-md py-2 font-bold">
+          <HashLink
+            to="/#pricing"
+            smooth
+            className="w-full lg:w-48 border-2 border-red-300 hover:border-red-600 transition-all duration-700 text-[#ed2e35] rounded-md py-2 font-bold text-center"
+          >
             See our Packages
-          </button>
+          </HashLink>
         </div>
 
         {/* <h1 className="font-black text-5xl animate-pulse text-transparent bg-clip-text bg-gradient-to-tr from-red-500 to-gray-400">

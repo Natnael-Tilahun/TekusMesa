@@ -42,7 +42,7 @@ function Subscribe() {
           <input
             className="shadow appearance-none  rounded w-full py-3 px-5 md:px-20 text-gray-700  leading-tight focus:border-[#ed2e35] border-r-0 rounded-r-none focus:outline-none focus:shadow-outline"
             id="email"
-            type="email"
+            type=""
             placeholder="Enter mail address"
             {...register("email", { required: true, pattern: /^\S+@\S+$/i })}
           />

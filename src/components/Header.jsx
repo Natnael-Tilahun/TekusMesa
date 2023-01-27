@@ -102,14 +102,14 @@ function Header({ collapseNav, toggleMenu }) {
           >
             Pricing
           </HashLink>
-          <HashLink
+          {/* <HashLink
             to="/#responsive-header"
             smooth
             onClick={toggleMenu}
             className="block mt-4 lg:inline-block lg:mt-0 hover:text-[#ed2e35] text-gray-600 mr-10  border-red-500 pr-2 transition-all duration-200 hover:border-r-4"
           >
             Blog
-          </HashLink>
+          </HashLink> */}
           <HashLink
             to="/#contact"
             smooth

@@ -5,11 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function Contact() {
-  const NODE_ENV = process.env.NODE_ENV;
-
-  const SI = NODE_ENV.REACT_APP_YOUR_SERVICE_ID
-  const TK = NODE_ENV.REACT_APP_YOUR_TEMPLATE_ID
-  const PK = NODE_ENV.REACT_APP_YOUR_PUBLIC_KEY
+  // const NODE_ENV = process.env.NODE_ENV;
   const YOUR_SERVICE_ID = "service_ooam44u";
   const YOUR_TEMPLATE_ID = "template_g0arq1v";
   const YOUR_PUBLIC_KEY = "__i-jycM1GtKOAT84";
@@ -33,10 +29,10 @@ function Contact() {
   const sendEmail = () => {
     emailjs
       .sendForm(
-        SI,
-        TK,
+        YOUR_SERVICE_ID,
+        YOUR_TEMPLATE_ID,
         form.current,
-        PK
+        YOUR_PUBLIC_KEY
       )
       .then(
         (result) => {

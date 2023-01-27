@@ -1,12 +1,26 @@
 import React from "react";
+import { useForm } from "react-hook-form";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function Subscribe() {
+  const {
+    handleSubmit,
+    register,
+    reset,
+    formState: { errors },
+  } = useForm();
+
   const notify = () => {
     toast.success(
       "Thank you for reaching out to us. We will contact you very soon."
     );
+  };
+
+  const onSubmit = (data) => {
+    console.log(data);
+    notify();
+    reset();
   };
 
   return (
@@ -20,21 +34,31 @@ function Subscribe() {
           Stay tune and get the latest update
         </p>
       </div>
-      <div className="flex lg:basis-1/2 lg:px-5">
-        <input
-          className="shadow appearance-none  rounded w-full py-3 px-3 text-gray-700  leading-tight focus:border-[#ed2e35] border-r-0 rounded-r-none focus:outline-none focus:shadow-outline"
-          id="email"
-          type="email"
-          placeholder="Enter mail address"
-        />
+      <form
+        className="flex lg:basis-1/2 lg:px-5"
+        onSubmit={handleSubmit(onSubmit)}
+      >
+        <div>
+          <input
+            className="shadow appearance-none  rounded w-full py-3 px-3 text-gray-700  leading-tight focus:border-[#ed2e35] border-r-0 rounded-r-none focus:outline-none focus:shadow-outline"
+            id="email"
+            type="email"
+            placeholder="Enter mail address"
+            {...register("email", { required: true, pattern: /^\S+@\S+$/i })}
+          />
+          <p className="text-sm text-gray-100 py-2">
+            {errors.email?.type === "required" && "Email is required."}
+            {errors.email?.type === "pattern" &&
+              "Entered email is in wrong format."}
+          </p>
+        </div>
         <button
-          className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-10 rounded focus:outline-none focus:shadow-outline border-l-0 rounded-l-none"
-          type="button"
-          onClick={notify}
+          className="bg-gray-900 hover:bg-gray-700 text-white font-bold max-h-11 py-2 px-10 rounded focus:outline-none focus:shadow-outline border-l-0 rounded-l-none"
+          type="submit"
         >
           Submit
         </button>
-      </div>
+      </form>
     </section>
   );
 }

@@ -40,7 +40,7 @@ function Services() {
             Super Dine In
           </h1>
           <p className="text-lg text-gray-500 text-center">
-            We will delivery your lunch box on time at your workplace
+          You will eat fresh and hot lunch at your workplace
           </p>
         </div>
         <div
@@ -56,7 +56,7 @@ function Services() {
             Easy Pick Up
           </h1>
           <p className="text-lg text-gray-500 text-center">
-            We will delivery your lunch box on time at your workplace
+            We will deliver to your workplace door, easy to pick up.
           </p>
         </div>
       </div>

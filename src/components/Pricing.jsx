@@ -23,7 +23,7 @@ function Pricing() {
                 <h4 className="text-xl lg:text-2xl font-bold text-gray-900">
                   Student<span className="text-sm">(Basic)</span>
                 </h4>
-                <p className="text-xs text-gray-500">Most Popular</p>
+                <p className="text-xs text-gray-500">For Students</p>
               </div>
               <div>
                 <div className="bg-gray-100 p-2 rounded-lg text-center">
@@ -58,9 +58,10 @@ function Pricing() {
                   </div>
 
                   <span className="ml-3 text-base text-black">
-                    Deliver you lunch on time
+                    Deliver your lunch on time
                   </span>
                 </li>
+              
                 <li className="flex items-center">
                   <div className="bg-black rounded-full p-1">
                     <svg
@@ -81,30 +82,7 @@ function Pricing() {
                   </div>
 
                   <span className="ml-3 text-base text-black">
-                    Custom permissions
-                  </span>
-                </li>
-                <li className="flex items-center">
-                  <div className="bg-black rounded-full p-1">
-                    <svg
-                      className="flex-shrink-0 h-4 w-4 text-white"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 13l4 4L19 7"
-                      />
-                    </svg>
-                  </div>
-
-                  <span className="ml-3 text-base text-black">
-                    Custom help desk
+                    Easy to pick up
                   </span>
                 </li>
                 <li className="flex items-center">
@@ -126,31 +104,10 @@ function Pricing() {
                   </div>
 
                   <span className="ml-3 text-base text-gray-700">
-                    Unlimited updates
+                    No lunch box return to your home
                   </span>
                 </li>
-                <li className="flex items-center">
-                  <div className="bg-gray-700 rounded-full p-1">
-                    <svg
-                      className="flex-shrink-0 h-4 w-4 text-white"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M6 18L18 6M6 6l12 12"
-                      />
-                    </svg>
-                  </div>
-
-                  <span className="ml-3 text-base text-gray-700">
-                    Return your lunch box to your home
-                  </span>
-                </li>
+             
               </ul>
             </div>
             {/* <!-- END LIST SECTION--> */}
@@ -170,7 +127,7 @@ function Pricing() {
                 <h4 className="text-xl lg:text-2xl font-bold text-white">
                   Ultimate
                 </h4>
-                <p className="text-xs text-gray-300">Recommended</p>
+                <p className="text-xs text-gray-300">Recommended for all</p>
               </div>
               <div>
                 <div className="bg-gray-700 p-2 rounded-lg text-center">
@@ -205,7 +162,31 @@ function Pricing() {
                   </div>
 
                   <span className="ml-3 text-base text-white">
-                    Deliver you lunch on time
+                    Deliver your lunch on time
+                  </span>
+                </li>
+              
+                <li className="flex items-center">
+                  <div className="bg-white rounded-full p-1">
+                    <svg
+                      className="flex-shrink-0 h-4 w-4 text-indigo-900"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M5 13l4 4L19 7"
+                      ></path>
+                    </svg>
+                  </div>
+
+                  <span className="ml-3 text-base text-white">
+                    Easy to pick up
                   </span>
                 </li>
                 <li className="flex items-center">
@@ -231,73 +212,6 @@ function Pricing() {
                     Return your lunch box to your home
                   </span>
                 </li>
-                <li className="flex items-center">
-                  <div className="bg-white rounded-full p-1">
-                    <svg
-                      className="flex-shrink-0 h-4 w-4 text-indigo-900"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 13l4 4L19 7"
-                      ></path>
-                    </svg>
-                  </div>
-
-                  <span className="ml-3 text-base text-white">
-                    Custom help desk
-                  </span>
-                </li>
-                <li className="flex items-center">
-                  <div className="bg-gray-500 rounded-full p-1">
-                    <svg
-                      className="flex-shrink-0 h-4 w-4 text-indigo-900"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M6 18L18 6M6 6l12 12"
-                      ></path>
-                    </svg>
-                  </div>
-
-                  <span className="ml-3 text-base text-gray-500">
-                    Unlimited updates
-                  </span>
-                </li>
-                <li className="flex items-center">
-                  <div className="bg-gray-500 rounded-full p-1">
-                    <svg
-                      className="flex-shrink-0 h-4 w-4 text-indigo-900"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M6 18L18 6M6 6l12 12"
-                      ></path>
-                    </svg>
-                  </div>
-
-                  <span className="ml-3 text-base text-gray-500">
-                    Superpower and much more
-                  </span>
-                </li>
               </ul>
             </div>
             {/* <!-- END LIST SECTION--> */}
@@ -317,7 +231,7 @@ function Pricing() {
                 <h4 className="text-xl lg:text-2xl font-bold text-gray-900">
                   Professional<span className="text-sm">(Basic)</span>
                 </h4>
-                <p className="text-xs text-gray-500">For you</p>
+                <p className="text-xs text-gray-500">For workers</p>
               </div>
               <div>
                 <div className="bg-gray-100 p-2 rounded-lg text-center">
@@ -352,7 +266,7 @@ function Pricing() {
                   </div>
 
                   <span className="ml-3 text-base text-black">
-                    Deliver you lunch on time
+                    Deliver your lunch on time
                   </span>
                 </li>
                 <li className="flex items-center">
@@ -375,30 +289,7 @@ function Pricing() {
                   </div>
 
                   <span className="ml-3 text-base text-black">
-                    Custom permissions
-                  </span>
-                </li>
-                <li className="flex items-center">
-                  <div className="bg-black rounded-full p-1">
-                    <svg
-                      className="flex-shrink-0 h-4 w-4 text-white"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 13l4 4L19 7"
-                      />
-                    </svg>
-                  </div>
-
-                  <span className="ml-3 text-base text-black">
-                    Custom help desk
+                    Easy to pick up
                   </span>
                 </li>
                 <li className="flex items-center">
@@ -420,29 +311,7 @@ function Pricing() {
                   </div>
 
                   <span className="ml-3 text-base text-gray-700">
-                    Return your lunch box to your home
-                  </span>
-                </li>
-                <li className="flex items-center">
-                  <div className="bg-gray-700 rounded-full p-1">
-                    <svg
-                      className="flex-shrink-0 h-4 w-4 text-white"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M6 18L18 6M6 6l12 12"
-                      />
-                    </svg>
-                  </div>
-
-                  <span className="ml-3 text-base text-gray-700">
-                    Superpower and much more
+                    No lunch box return to your home
                   </span>
                 </li>
               </ul>

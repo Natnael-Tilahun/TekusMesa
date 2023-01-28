@@ -2,7 +2,7 @@ import React from "react";
 
 function Pricing() {
   return (
-    <section id="pricing" className="w-full lg:h-screen py-[80px] lg:mb-[160px]">
+    <section id="pricing" className="w-full lg:h-screen py-[100px] lg:mb-[0px]">
       <header className="text-center">
         <h3 className="text-4xl lg:text-5xl font-bold mb-5 text-gray-900">
           Our Pricing Plan
@@ -61,7 +61,7 @@ function Pricing() {
                     Deliver your lunch on time
                   </span>
                 </li>
-              
+
                 <li className="flex items-center">
                   <div className="bg-black rounded-full p-1">
                     <svg
@@ -107,7 +107,6 @@ function Pricing() {
                     No lunch box return to your home
                   </span>
                 </li>
-             
               </ul>
             </div>
             {/* <!-- END LIST SECTION--> */}
@@ -165,7 +164,7 @@ function Pricing() {
                     Deliver your lunch on time
                   </span>
                 </li>
-              
+
                 <li className="flex items-center">
                   <div className="bg-white rounded-full p-1">
                     <svg

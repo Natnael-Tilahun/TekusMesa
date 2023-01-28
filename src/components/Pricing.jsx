@@ -2,7 +2,10 @@ import React from "react";
 
 function Pricing() {
   return (
-    <section id="pricing" className="w-full lg:h-screen py-[100px] lg:mb-[0px]">
+    <section
+      id="pricing"
+      className="w-full lg:h-screen flex flex-col justify-center py-[80px] lg:mb-[0px]"
+    >
       <header className="text-center">
         <h3 className="text-4xl lg:text-5xl font-bold mb-5 text-gray-900">
           Our Pricing Plan

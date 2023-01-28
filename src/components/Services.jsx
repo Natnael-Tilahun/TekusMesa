@@ -21,7 +21,7 @@ function Services() {
           <img
             src="/service-01.webp"
             alt="Service one image"
-            className="w-32"
+            className="w-32 h-32"
           />
           <h1 className="text-2xl font-bold text-gray-900 py-3">
             Quick Delivery
@@ -34,13 +34,13 @@ function Services() {
           <img
             src="/service-02.webp"
             alt="Service one image"
-            className="w-32"
+            className="w-32 h-32"
           />
           <h1 className="text-2xl font-bold text-gray-900 py-3">
             Super Dine In
           </h1>
           <p className="text-lg text-gray-500 text-center">
-          You will eat fresh and hot lunch at your workplace
+            You will eat fresh and hot lunch at your workplace
           </p>
         </div>
         <div
@@ -50,7 +50,7 @@ function Services() {
           <img
             src="/service-03.webp"
             alt="Service one image"
-            className="w-32"
+            className="w-32 h-32"
           />
           <h1 className="text-2xl font-bold text-gray-900 py-3">
             Easy Pick Up
